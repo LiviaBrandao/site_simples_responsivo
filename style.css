@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img-banner {
+    display: block; 
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+.img-info {
+    width: 100%;
+}
+
+.img-info h2{
+    padding: 30px 30px 20px;
+    font-family: arial;
+    font-size: 50px;
+    color: #111;
+    line-height: 44px;
+}
+
+.img-info p{
+    padding: 0px 30px 20px;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 24px;
+} 
+
+.img-me {
+    width: 100%;
+}
+
+.resto-banner{
+    padding-top: 0px;
+    height: 10px;
+    width:  100%;
+}
+
+.foot{
+    background-color: #111;
+    padding-top: 50px;
+}
+
+/* change from device to device, only changes the things you would like to change */
+/* from device -to-device */
+@media only screen and (min-width: 1000px) {
+    /* .img-banner {
+        display: block; 
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .wrapper {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .img-info h2{
+        padding: 30px 0px 0px;
+    }
+    
+    .img-info p{
+        padding: 0px 30px 20px;
+    }
+    
+    .img-me {
+        padding-top: 30px;
+    } */
+
+    .wrapper {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .img-info h2{
+        padding: 30px 0px 0px 600px;
+    }
+    
+    .img-info p{
+        padding: 20px 0px 0px 600px;
+    } 
+
+    .img-me {
+        padding-top: 40px;
+        width: 50%;
+        float: left;
+    }
+
+    .foot{
+        padding-top: 100px;
+    }
+
+}
